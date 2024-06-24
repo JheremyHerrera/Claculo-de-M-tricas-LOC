@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input, button {
+    margin: 10px 0;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #55d81d;
+    border: 1px solid #805b5b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#results p {
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

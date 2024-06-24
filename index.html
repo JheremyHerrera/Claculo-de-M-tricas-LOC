@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Métricas LOC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculo de Métricas LOC</h1>
+    <input type="file" id="fileInput" accept=".py,.js,.java,.cpp">
+    <button onclick="analyzeFile()">Estas seguro de Analizar</button>
+    <div id="results">
+        <p>Total LOC: <span id="totalLOC"></span></p>
+        <p>Código Fuente LOC: <span id="sourceLOC"></span></p>
+        <p>Comentarios LOC: <span id="commentLOC"></span></p>
+        <p>Líneas en blanco: <span id="blankLOC"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
